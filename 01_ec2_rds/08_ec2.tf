@@ -9,7 +9,7 @@ resource "aws_instance" "ec2_ap" {
   disable_api_termination = false
   key_name = "${aws_key_pair.key_pair_main.key_name}"
   vpc_security_group_ids = ["${aws_security_group.secgrp_ap_ssh.id}"]
-  subnet_id = "${aws_subnet.subnet_ap.id}"
+  subnet_id = "${aws_subnet.subnet_ap_a.id}"
   ebs_block_device {
     device_name = "/dev/sdf"
     volume_type = "gp2"
