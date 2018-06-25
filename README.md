@@ -63,4 +63,4 @@ $ sqlplus64 rdsora@RDSORA01
 
 ## 参考資料
 - [Terraform AWS RDS Complete Oracle](https://github.com/terraform-aws-modules/terraform-aws-rds/blob/master/examples/complete-oracle/main.tf)
-
+- [Oracle DB インスタンスの一般的な DBA タスク](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/Appendix.Oracle.CommonDBATasks.html)

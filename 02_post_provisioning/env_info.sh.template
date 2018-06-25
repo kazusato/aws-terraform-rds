@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+REGION=ap-northeast-1
+EC2_INSTANCE_ID=i-xxxxxxxxxxxxxxxxx
+RDS_INSTANCE_NAME=rds-instance-name
